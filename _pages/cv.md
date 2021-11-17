@@ -21,15 +21,9 @@ Education
 
 Work experience
 ======
-* Nov. 2018 - Nov. 2019: Research Engineer at [CEA](https://www.cea.fr/) (Palaiseau, France)
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Nov. 2018 - Nov. 2019, Research Engineer at [CEA](https://www.cea.fr/) (Palaiseau, France)
+* Avr. 2018 - Aug. 2018, R&D Intern at Baidu (Beijing, China)
+* Jun. 2017 - Aug. 2018, Research Intern at [Charles Fabry Labratory, CNRS](https://www.lcf.institutoptique.fr/en) (Palaiseau, France)
   
 Skills
 ======
