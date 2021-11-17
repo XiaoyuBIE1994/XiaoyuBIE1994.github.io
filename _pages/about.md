@@ -12,7 +12,6 @@ I’m currently a Ph.D. student at INRIA since November 2019 within [RobotLearn 
 
 My research interests are broadly involving computer vision and speech processing. Specifically, the deep sequential generative model, unsupervised speech enhancement and human motion.
 
----
 
 ## News  
 **Oct. 2021** Our paper [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is accepted by [Foundations and Trends in Machine Learning](https://www.nowpublishers.com/MAL)  
