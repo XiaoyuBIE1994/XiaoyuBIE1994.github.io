@@ -9,7 +9,7 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Project"
     url: /portfolio/
         
   - title: "Blog Posts"
@@ -19,4 +19,7 @@ main:
     url: /cv/
     
   - title: "Guide"
+    url: /markdown/
+   
+  - title: "Dataset"
     url: /markdown/
