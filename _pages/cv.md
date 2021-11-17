@@ -9,15 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
+I’m currently a Ph.D. student at INRIA since November 2019 within [RobotLearn team](https://team.inria.fr/robotlearn/). I'm supervised by [Xavier Alameda-Pineda](http://xavirema.eu/) and [Laurent Girin](http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html). I also collaborate closely with [Simon Leglaive](https://sleglaive.github.io/index.html) and [Francesc Moreno-Noguer](http://www.iri.upc.edu/people/fmoreno/).
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, INRIA & University Grenoble Alpes, 2022 (expected)
+* M.S. (M2) in Signal and Image Processing, University Paris Saclay, 2018
+* M.S. (Dipl. Ing.) in Applied Optics, Institut d'Optique, 2018
+* B.S. in Optical & Electronic Information, Huazhong University of Science and Technology, 2016
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* Nov. 2018 - Nov. 2019: Research Engineer at [CEA](https://www.cea.fr/) (Palaiseau, France)
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -29,14 +33,10 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Language: Chinese, English, French
+* Programming: Python, Matlab, C++
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -57,3 +57,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+ -->
