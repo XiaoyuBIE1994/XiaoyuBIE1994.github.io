@@ -13,10 +13,10 @@ I’m currently a Ph.D. student at INRIA since November 2019 within [RobotLearn 
 
 Education
 ======
-* Ph.D in Computer Science, INRIA & University Grenoble Alpes, 2022 (expected)
-* M.S. (M2) in Signal and Image Processing, University Paris Saclay, 2018
-* M.S. (Dipl. Ing.) in Applied Optics, Institut d'Optique, 2018
-* B.S. in Optical & Electronic Information, Huazhong University of Science and Technology, 2016
+* Ph.D in _Computer Science_, INRIA & University Grenoble Alpes, 2022 (expected)
+* M.S. (M2) in _Signal and Image Processing_, University Paris Saclay, 2018
+* M.S. (Dipl. Ing.) in _Applied Optics_, Institut d'Optique, 2018
+* B.S. in _Optical and Electronic Information_, Huazhong University of Science and Technology, 2016
 
 
 Work experience
