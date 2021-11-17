@@ -16,7 +16,7 @@ My research interests are broadly involving computer vision and speech processin
 ## News  
 **Oct. 2021** Our paper [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is accepted by [Foundations and Trends in Machine Learning](https://www.nowpublishers.com/MAL)  
 **Jun. 2021** 1 paper accepted at [Interspeech 2021](https://www.interspeech2021.org/)  
-**Aug. 2020** First paper with my supervisors [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is avaiable on arXiv  
+**Aug. 2020** My 1st paper with my supervisors [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is avaiable on arXiv  
 **Dec. 2019** I start my PhD at Inria Grenoble
 
 
