@@ -4,7 +4,7 @@ collection: teaching
 type: "4PMIIAI"
 permalink: /teaching/2020-winter-teaching-1
 venue: "University 1, Department"
-date: 2020
+date: 2020-10-01
 location: "Grenoble, France"
 ---
 
