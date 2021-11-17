@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Ubuntu16.04安装OpenMVG+OpenMVS踩坑记录
-category: 环境配置
-tags: 
+title: 'Ubuntu16.04安装OpenMVG+OpenMVS踩坑记录'
+date: 2012-08-14
+permalink: /posts/2018/12/openmvg-openmvs/
+tags:
   - openmvg
   - openmvs
 ---
