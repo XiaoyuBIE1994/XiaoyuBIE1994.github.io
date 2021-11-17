@@ -1,8 +1,8 @@
 ---
-layout: post
-title: 光学成像系统中的像差与噪声
-category: 知识整理
-tags: 
+title: '光学成像系统中的像差与噪声'
+date: 2018-01-02
+permalink: /posts/2012/08/imaging-system/
+tags:
   - imaging system
 ---
 
