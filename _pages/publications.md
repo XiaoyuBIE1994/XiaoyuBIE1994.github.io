@@ -15,7 +15,28 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
  
-You can also find my articles on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
+Here is a selection of recent publications, you can also find a full list via [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
+
+<article class="columns">
+  <div class="column is-3">
+    <figure class="image">
+      <img src="images/publications/2021_FnT_DVAE.png">
+    </figure>
+  </div>
+  <div class="column">
+    <div class="content">
+      <p>
+        <b>Foundations and Trends in Machine Learning</b><br>
+        <a href="http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html" target="_blank" class="dark">Laurent Girin</a>, <a href="https://sleglaive.github.io/index.html" target="_blank" class="dark">Simon Leglaive</a>, <b>Xiaoyu BIE</b>, <a href="https://diard.wordpress.com/" target="_blank" class="dark">Julien Diard</a>, <a href="http://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/index_en.html" target="_blank" class="dark">Thomas Hueber</a>, <a href="http://xavirema.eu/" target="_blank" class="dark">Xavier Alameda-Pineda</a><br>
+        <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175. DOI: 10.1561/2200000089</i><br>
+        <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[arXiv]</a>
+        <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
+        <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
+        <a href="https://dynamicalvae.github.io/" target="_blank">[Tutorial @ICASPP 2021]</a>
+      </p>
+    </div>
+  </div>
+</article>
 
 ## Preiprint  
 **[U1]** **Xiaoyu Bie**, Simon Leglaive, Xavier Alameda-Pineda and Laurent Girin, "Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders", arXiv preprint arXiv:2106.12271. [[pdf](https://arxiv.org/pdf/2106.12271.pdf)] [Code]  
