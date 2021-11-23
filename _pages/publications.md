@@ -15,10 +15,10 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
  
-Here is a selection of recent publications, you can also find a full list via [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
+Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
 
 <article class="columns">
-  <div class="column is-3">
+  <div class="column is-one-quarter">
     <figure class="image">
       <img src="../images/publications/2021_FnT_DVAE.png">
     </figure>
