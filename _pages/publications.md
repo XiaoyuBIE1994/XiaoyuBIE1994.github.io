@@ -25,6 +25,6 @@ You can also find my articles on [Google Scholar](https://scholar.google.com/cit
 **[C1]** **Xiaoyu Bie**, Laurent Girin, Simon Leglaive, Thomas Hueber and Xavier Alameda-Pineda, "A Benchmark of Dynamical Variational Autoencoders applied to Speech Spectrogram Modeling", **Interspeech**, 2021. [[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/bie21_interspeech.pdf)] [[Project Page](https://team.inria.fr/robotlearn/a-benchmark-of-dynamical-variational-autoencoders-applied-to-speech-spectrogram-modeling)] [[Code](https://github.com/XiaoyuBIE1994/DVAE)]  
 
 ## Journal papers  
-**[J1]** Laurent Girin, Simon Leglaive, **Xiaoyu Bie**, Julien Diard, Thomas Hueber and Xavier Alameda-Pineda, "Dynamical Variational Autoencoders: A Comprehensive Review", **Foundations and Trends in Machine Learning**, Vol. 15, No. 1-2, pp 1–175. DOI: 10.1561/2200000089. [[pdf](https://arxiv.org/pdf/2008.12595.pdf)] [[Project Page](https://team.inria.fr/robotlearn/dvae/)] [[Code](https://github.com/XiaoyuBIE1994/DVAE)] [[Tutorial @ICASPP 2021](https://dynamicalvae.github.io/)]
+**[J1]** Laurent Girin, Simon Leglaive, **Xiaoyu Bie**, Julien Diard, Thomas Hueber and Xavier Alameda-Pineda, "Dynamical Variational Autoencoders: A Comprehensive Review", **Foundations and Trends in Machine Learning**, 2021, Vol. 15, No. 1-2, pp 1–175. DOI: 10.1561/2200000089. [[pdf](https://arxiv.org/pdf/2008.12595.pdf)] [[Project Page](https://team.inria.fr/robotlearn/dvae/)] [[Code](https://github.com/XiaoyuBIE1994/DVAE)] [[Tutorial @ICASPP 2021](https://dynamicalvae.github.io/)]
 
 
