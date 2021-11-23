@@ -20,7 +20,7 @@ Here is a selection of recent publications, you can also find a full list via [G
 <article class="columns">
   <div class="column is-3">
     <figure class="image">
-      <img src="images/publications/2021_FnT_DVAE.png">
+      <img src="../images/publications/2021_FnT_DVAE.png">
     </figure>
   </div>
   <div class="column">
