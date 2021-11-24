@@ -61,11 +61,11 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
     </figure>
   </div>
-  <!-- <div class="column middle">
+  <div class="column middle">
     <figure class="image">
       <img src="../images/blank_placeholder.png" width="100%">
     </figure>
-  </div> -->
+  </div>
   <div class="column right">
     <div class="content">
       <p>
