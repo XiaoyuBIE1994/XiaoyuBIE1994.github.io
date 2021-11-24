@@ -47,7 +47,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2021_FnT_DVAE.png" width="90%">
+      <img src="../images/publications/2021_FnT_DVAE.png" width="80%">
     </figure>
   </div>
   <div class="column right">
