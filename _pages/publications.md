@@ -30,11 +30,11 @@ author_profile: true
 }
 
 .right {
-  width: 65%;
+  width: 68%;
 }
 
 .middle {
-  width: 5%;
+  width: 2%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -88,6 +88,9 @@ Here is a selection of recent publications, full list can be found on [Google Sc
     </figure>
   </div>
   <div class="column middle">
+    <figure class="image">
+      <img src="../images/blank_placeholder.png" width="100%">
+    </figure>
   </div>
   <div class="column right">
     <div class="content">
