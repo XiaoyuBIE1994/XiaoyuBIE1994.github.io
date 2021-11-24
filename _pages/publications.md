@@ -30,11 +30,11 @@ author_profile: true
 }
 
 .right {
-  width: 65%;
+  width: 60%;
 }
 
 .middle {
-  width: 5%;
+  width: 10%;
 }
 /* Clear floats after the columns */
 .row:after {
