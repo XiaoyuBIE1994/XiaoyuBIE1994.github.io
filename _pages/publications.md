@@ -56,10 +56,30 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>Dynamical Variational Autoencoders: A Comprehensive Review</b><br>
         Laurent Girin, Simon Leglaive, <b>Xiaoyu BIE</b>, Julien Diard, Thomas Hueber, Xavier Alameda-Pineda<br>
         <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175.</i><br>
-        <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[arXiv]</a>
+        <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
         <a href="https://dynamicalvae.github.io/" target="_blank">[Tutorial @ICASPP 2021]</a>
+      </p>
+    </div>
+  </div>
+</article>
+
+<article class="row">
+  <div class="column left">
+    <figure class="image">
+      <img src="../images/publications/2021_Interspeech_dvae-speech.png" width="100%">
+    </figure>
+  </div>
+  <div class="column right">
+    <div class="content">
+      <p>
+        <b>A Benchmark of Dynamical Variational Autoencoders applied to Speech Spectrogram Modeling</b><br>
+        <b>Xiaoyu BIE</b>, Laurent Girin, Simon Leglaive, Thomas Hueber, Xavier Alameda-Pineda<br>
+        <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175.</i><br>
+        <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/bie21_interspeech.pdf" target="_blank">[Paper]</a>
+        <a href="https://team.inria.fr/robotlearn/a-benchmark-of-dynamical-variational-autoencoders-applied-to-speech-spectrogram-modeling" target="_blank">[Project page]</a>
+        <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
       </p>
     </div>
   </div>
