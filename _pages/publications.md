@@ -26,14 +26,17 @@ author_profile: true
 }
 
 .left {
+  align-items: top;
   width: 30%;
 }
 
 .right {
+  align-items: top;
   width: 68%;
 }
 
 .middle {
+  align-items: top;
   width: 2%;
 }
 /* Clear floats after the columns */
