@@ -47,7 +47,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
+      <img src="../images/publications/2021_FnT_DVAE.png" width="90%">
     </figure>
   </div>
   <div class="column right">
@@ -55,7 +55,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <p>
         <b>Dynamical Variational Autoencoders: A Comprehensive Review</b><br>
         Laurent Girin, Simon Leglaive, <b>Xiaoyu BIE</b>, Julien Diard, Thomas Hueber, Xavier Alameda-Pineda<br>
-        <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175. DOI: 10.1561/2200000089</i><br>
+        <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175.</i><br>
         <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
