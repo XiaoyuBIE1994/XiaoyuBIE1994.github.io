@@ -23,7 +23,6 @@ author_profile: true
 .column {
   float: left;
   padding: 0px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .left {
