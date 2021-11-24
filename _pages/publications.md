@@ -46,7 +46,7 @@ author_profile: true
 .content figure {
        width: 90%;
        display: flex;
-       align-items: center;
+       align-items: top;
        overflow: hidden;
        margin-left: auto!important;
        margin-right: auto!important;
