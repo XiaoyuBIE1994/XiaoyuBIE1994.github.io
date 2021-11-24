@@ -59,7 +59,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
+      <img src="../images/publications/2022_arXiv_ExPI.png" width="100%">
     </figure>
   </div>
   <div class="column middle">
@@ -85,7 +85,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
+      <img src="../images/publications/2022_arXiv_DVAE-SE.png" width="100%">
     </figure>
   </div>
   <div class="column middle">
