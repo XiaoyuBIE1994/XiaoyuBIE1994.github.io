@@ -42,6 +42,7 @@ author_profile: true
 /* Clear floats after the columns */
 .row:after {
   content: "";
+  align-items: top;
   display: table;
   clear: both;
 }
