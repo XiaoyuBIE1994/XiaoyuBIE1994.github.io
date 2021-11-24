@@ -14,20 +14,47 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
- 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
 
-<article class="columns">
-  <div class="column is-one-quarter">
+<article class="row">
+  <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2021_FnT_DVAE.png">
+      <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
     </figure>
   </div>
-  <div class="column">
+  <div class="column right">
     <div class="content">
       <p>
-        <b>Foundations and Trends in Machine Learning</b><br>
-        <a href="http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html" target="_blank" class="dark">Laurent Girin</a>, <a href="https://sleglaive.github.io/index.html" target="_blank" class="dark">Simon Leglaive</a>, <b>Xiaoyu BIE</b>, <a href="https://diard.wordpress.com/" target="_blank" class="dark">Julien Diard</a>, <a href="http://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/index_en.html" target="_blank" class="dark">Thomas Hueber</a>, <a href="http://xavirema.eu/" target="_blank" class="dark">Xavier Alameda-Pineda</a><br>
+        <b>Dynamical Variational Autoencoders: A Comprehensive Review</b><br>
+        Laurent Girin, Simon Leglaive, <b>Xiaoyu BIE</b>, Julien Diard, Thomas Hueber, Xavier Alameda-Pineda<br>
         <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175. DOI: 10.1561/2200000089</i><br>
         <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
