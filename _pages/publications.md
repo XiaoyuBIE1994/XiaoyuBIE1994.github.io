@@ -33,12 +33,15 @@ author_profile: true
   width: 65%;
 }
 
+.middle {
+  width: 5%;
+}
 /* Clear floats after the columns */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 </style>
 
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
@@ -48,6 +51,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
     <figure class="image">
       <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
     </figure>
+  </div>
+  <div class="column middle">
   </div>
   <div class="column right">
     <div class="content">
@@ -69,6 +74,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
     <figure class="image">
       <img src="../images/publications/2021_Interspeech_dvae-speech.png" width="100%">
     </figure>
+  </div>
+  <div class="column middle">
   </div>
   <div class="column right">
     <div class="content">
