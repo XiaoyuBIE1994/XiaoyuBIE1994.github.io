@@ -30,11 +30,11 @@ author_profile: true
 }
 
 .right {
-  width: 60%;
+  width: 65%;
 }
 
 .middle {
-  width: 10%;
+  width: 5%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -42,6 +42,15 @@ author_profile: true
   display: table;
   clear: both;
 }
+
+.content figure {
+       width: 90%;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       margin-left: auto!important;
+       margin-right: auto!important;
+      }
 </style>
 
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)
@@ -52,11 +61,11 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
     </figure>
   </div>
-  <div class="column middle">
+  <!-- <div class="column middle">
     <figure class="image">
       <img src="../images/blank_placeholder.png" width="100%">
     </figure>
-  </div>
+  </div> -->
   <div class="column right">
     <div class="content">
       <p>
