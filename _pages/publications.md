@@ -132,7 +132,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
-        <a href="https://dynamicalvae.github.io/" target="_blank">[Tutorial]</a>
+        <a href="https://www.youtube.com/watch?v=-Ix8k6BVOeU&list=PLuZsCU0LDHDeEusitbdY6bNKOEhqh6DnS&t=5s" target="_blank">[Tutorial]</a>
       </p>
     </div>
   </div>
