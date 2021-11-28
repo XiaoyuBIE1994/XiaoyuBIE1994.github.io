@@ -76,6 +76,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <p>
         <b>Multi-Person Extreme Motion Prediction</b><br>
         Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno<br>
+        *equal contribution<br>
         <i>arXiv preprint arXiv:2105.08825.</i><br>
         <a href="https://arxiv.org/pdf/2105.08825.pdf" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction-with-cross-interaction-attention" target="_blank">[Project page]</a>
