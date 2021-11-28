@@ -74,7 +74,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
   <div class="column right">
     <div class="content">
       <p>
-        <b>Multi-PersonExtreme Motion Prediction</b><br>
+        <b>Multi-Person Extreme Motion Prediction</b><br>
         Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno<br>
         <i>arXiv preprint arXiv:2105.08825.</i><br>
         <a href="https://arxiv.org/pdf/2105.08825.pdf" target="_blank">[Paper]</a>
