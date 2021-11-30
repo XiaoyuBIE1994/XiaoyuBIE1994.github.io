@@ -79,7 +79,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         *equal contribution<br>
         <i>arXiv preprint arXiv:2105.08825.</i><br>
         <a href="https://arxiv.org/pdf/2105.08825.pdf" target="_blank">[Paper]</a>
-        <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction-with-cross-interaction-attention" target="_blank">[Project page]</a>
+        <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
         [Code] [Dataset]
       </p>
     </div>
