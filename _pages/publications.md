@@ -78,7 +78,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno<br>
         *equal contribution<br>
         <i>arXiv preprint arXiv:2105.08825.</i><br>
-        <a href="https://arxiv.org/pdf/2105.08825.pdf" target="_blank">[Paper]</a>
+        <a href="https://arxiv.org/abs/2105.08825" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
         [Code] [Dataset]
       </p>
@@ -104,14 +104,14 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders</b><br>
         <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
         <i>arXiv preprint arXiv:2106.12271.</i><br>
-        <a href="https://arxiv.org/pdf/2106.12271.pdf" target="_blank">[Paper]</a>
+        <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
         [Code]
       </p>
     </div>
   </div>
 </article>
 
-<!-- 2022 FnT DVAE -->
+<!-- 2021 FnT DVAE -->
 <article class="row">
   <div class="column left">
     <figure class="image">
@@ -128,9 +128,10 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <p>
         <b>Dynamical Variational Autoencoders: A Comprehensive Review</b><br>
         Laurent Girin, Simon Leglaive, <b>Xiaoyu BIE</b>, Julien Diard, Thomas Hueber, Xavier Alameda-Pineda<br>
-        <i>Foundations and Trends in Machine Learning, 2022, Vol. 15, No. 1-2, pp 1–175.</i><br>
+        <i>Foundations and Trends in Machine Learning, 2021, Vol. 15, No. 1-2, pp 1–175.</i><br>
         <!-- <i>Foundations and Trends in Machine Learning, To appear.</i><br> -->
-        <a href="https://arxiv.org/pdf/2008.12595.pdf" target="_blank">[Paper]</a>
+        <a href="https://arxiv.org/abs/2008.12595" target="_blank">[arXiv]</a>
+        <a href="https://www.nowpublishers.com/article/Details/MAL-089" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
         <a href="https://www.youtube.com/watch?v=-Ix8k6BVOeU&list=PLuZsCU0LDHDeEusitbdY6bNKOEhqh6DnS&t=5s" target="_blank">[Tutorial]</a>
@@ -157,7 +158,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>A Benchmark of Dynamical Variational Autoencoders applied to Speech Spectrogram Modeling</b><br>
         <b>Xiaoyu BIE</b>, Laurent Girin, Simon Leglaive, Thomas Hueber, Xavier Alameda-Pineda<br>
         <i><b>Interspeech</b>, 2021.</i><br>
-        <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/bie21_interspeech.pdf" target="_blank">[Paper]</a>
+        <a href="https://arxiv.org/abs/2106.06500" target="_blank">[arXiv]</a>
+        <a href="https://www.isca-speech.org/archive/interspeech_2021/bie21_interspeech.html" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/a-benchmark-of-dynamical-variational-autoencoders-applied-to-speech-spectrogram-modeling" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
       </p>
