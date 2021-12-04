@@ -19,11 +19,15 @@ Education
 * B.S. in _Optical and Electronic Information_, Huazhong University of Science and Technology, 2016
 
 
-Work experience
+Experience
 ======
 * Nov. 2018 - Nov. 2019, Research Engineer at [CEA](https://www.cea.fr/) (Palaiseau, France)
 * Avr. 2018 - Aug. 2018, R&D Intern at Baidu (Beijing, China)
 * Jun. 2017 - Aug. 2018, Research Intern at [Charles Fabry Labratory, CNRS](https://www.lcf.institutoptique.fr/en) (Palaiseau, France)
+  
+Community service
+======
+* Conference reviewer: ACM MM'20-21
   
 Skills
 ======
