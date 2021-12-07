@@ -80,7 +80,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <i>arXiv preprint arXiv:2105.08825.</i><br>
         <a href="https://arxiv.org/abs/2105.08825" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
-        [Code] [Dataset]
+        <a href="https://github.com/GUO-W/MultiMotion" target="_blank">[Code]</a>
+        <a href="https://zenodo.org/record/5578329#.Ya_TCvGZP0q" target="_blank">[Dataset]</a>
       </p>
     </div>
   </div>
