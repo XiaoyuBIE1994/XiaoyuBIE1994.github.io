@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Keep curiosity"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Xiaoyu BIE"
 description              : &description "Ph.D. candidate at INRIA & Université Grenoble Alpes"
