@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-I’m currently a Ph.D. student at INRIA since November 2019 within [RobotLearn team](https://team.inria.fr/robotlearn/). I'm supervised by [Xavier Alameda-Pineda](http://xavirema.eu/) and [Laurent Girin](http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html). I also collaborate closely with [Simon Leglaive](https://sleglaive.github.io/index.html) and [Francesc Moreno-Noguer](http://www.iri.upc.edu/people/fmoreno/).
+I’m currently a Ph.D. student at INRIA since November 2019 within [RobotLearn team](https://team.inria.fr/robotlearn/). I'm supervised by [Xavier Alameda-Pineda](http://xavirema.eu/) and [Laurent Girin](http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html). I also collaborate closely with [Simon Leglaive](https://sleglaive.github.io/index.html) and [Francesc Moreno-Noguer](http://www.iri.upc.edu/people/fmoreno/).  
+
+Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv.</a>  
 
 Education
 ======
