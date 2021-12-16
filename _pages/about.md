@@ -14,6 +14,7 @@ My research interests are broadly involving computer vision and speech processin
 
 
 ## News  
+**Dec. 2021** We release the dataset [ExPI](https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction/)! It contains 115 sequences of exteme Lindy Hop poses, with the 3D MoCap data (from 20 mocap cameras and manual label clean), multi-view iamges (from 68 synchronized cameras) and 3D shapes as a texured mesh. [[Download](https://zenodo.org/record/5578329#.YbtQ8H2ZM-T)]
 **Oct. 2021** Our paper [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is accepted by [Foundations and Trends in Machine Learning](https://www.nowpublishers.com/MAL)  
 **Jun. 2021** 1 paper accepted at [Interspeech 2021](https://www.interspeech2021.org/)  
 **Aug. 2020** My first paper with my supervisors [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is avaiable on arXiv  
