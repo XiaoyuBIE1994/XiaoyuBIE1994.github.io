@@ -16,8 +16,8 @@ Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_bla
 Education
 ======
 * Ph.D in _Computer Science_, INRIA & University Grenoble Alpes, 2023 (expected)
-* M.S. (M2) in _Signal and Image Processing_, University Paris Saclay, 2018
-* M.S. (Dipl. Ing.) in _Applied Optics_, Institut d'Optique, 2018
+* M.S. (M2) in _Signal and Image Processing_, CentraleSupelec, University Paris Saclay, 2018
+* M.S. (Dipl. Ing.) in _Applied Optics_, Institut d'Optique, University Paris Saclay, 2018
 * B.S. in _Optical and Electronic Information_, Huazhong University of Science and Technology, 2016
 
 
