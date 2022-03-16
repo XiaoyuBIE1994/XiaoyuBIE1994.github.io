@@ -60,7 +60,7 @@ author_profile: true
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)  
 \* indicates equal contribution.
 
-<!-- 2021 arXiv ExPI-->
+<!-- 2022 ExPI-->
 <article class="row">
   <div class="column left">
     <figure class="image">
@@ -161,7 +161,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <i><b>Interspeech</b>, 2021.</i><br>
         <a href="https://arxiv.org/abs/2106.06500" target="_blank">[arXiv]</a>
         <a href="https://www.isca-speech.org/archive/interspeech_2021/bie21_interspeech.html" target="_blank">[Paper]</a>
-        <a href="https://team.inria.fr/robotlearn/a-benchmark-of-dynamical-variational-autoencoders-applied-to-speech-spectrogram-modeling" target="_blank">[Project page]</a>
+        <a href="https://team.inria.fr/robotlearn/interspeech21-dvae/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a>
       </p>
     </div>
