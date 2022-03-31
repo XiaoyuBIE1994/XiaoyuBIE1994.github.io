@@ -60,6 +60,31 @@ author_profile: true
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)  
 \* indicates equal contribution.
 
+<!-- 2022 arXiv DVAE SE-->
+<article class="row">
+  <div class="column left">
+    <figure class="image">
+      <img src="../images/publications/2022_arXiv_DVAE-SE.png" width="100%">
+    </figure>
+  </div>
+  <div class="column middle">
+    <figure class="image">
+      <img src="../images/blank_placeholder.png" width="100%">
+    </figure>
+  </div>
+  <div class="column right">
+    <div class="content">
+      <p>
+        <b>Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders</b><br>
+        <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
+        <i>arXiv preprint arXiv:2106.12271.</i><br>
+        <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
+        [Code]
+      </p>
+    </div>
+  </div>
+</article>
+
 <!-- 2022 ExPI-->
 <article class="row">
   <div class="column left">
@@ -82,31 +107,6 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
         <a href="https://zenodo.org/record/5578329#.Ya_TCvGZP0q" target="_blank">[Dataset]</a>
         <a href="https://github.com/GUO-W/MultiMotion" target="_blank">[Code]</a>
-      </p>
-    </div>
-  </div>
-</article>
-
-<!-- 2021 arXiv DVAE SE-->
-<article class="row">
-  <div class="column left">
-    <figure class="image">
-      <img src="../images/publications/2022_arXiv_DVAE-SE.png" width="100%">
-    </figure>
-  </div>
-  <div class="column middle">
-    <figure class="image">
-      <img src="../images/blank_placeholder.png" width="100%">
-    </figure>
-  </div>
-  <div class="column right">
-    <div class="content">
-      <p>
-        <b>Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders</b><br>
-        <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
-        <i>arXiv preprint arXiv:2106.12271.</i><br>
-        <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
-        [Code]
       </p>
     </div>
   </div>
