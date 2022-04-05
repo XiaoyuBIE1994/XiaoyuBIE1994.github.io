@@ -60,6 +60,31 @@ author_profile: true
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)  
 \* indicates equal contribution.
 
+<!-- 2022 arXiv HiT DVAE-->
+<article class="row">
+  <div class="column left">
+    <figure class="image">
+      <img src="../images/publications/2022_HiT_DVAE.png" width="100%">
+    </figure>
+  </div>
+  <div class="column middle">
+    <figure class="image">
+      <img src="../images/blank_placeholder.png" width="100%">
+    </figure>
+  </div>
+  <div class="column right">
+    <div class="content">
+      <p>
+        <b>HiT-DVAE: Human Motion Generation via Hierarchical Transformer Dynamical VAE</b><br>
+        <b>Xiaoyu BIE*</b>, Wen Guo*, Simon Leglaive, Laurent Girin, Francesc Moreno-Noguer, Xavier Alameda-Pineda<br>
+        <i>arXiv preprint arXiv:2204.01565</i><br>
+        <a href="https://arxiv.org/abs/2204.01565" target="_blank">[arXiv]</a>
+        [Code]
+      </p>
+    </div>
+  </div>
+</article>
+
 <!-- 2022 arXiv DVAE SE-->
 <article class="row">
   <div class="column left">
@@ -101,7 +126,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
     <div class="content">
       <p>
         <b>Multi-Person Extreme Motion Prediction</b><br>
-        Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno<br>
+        Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno-Noguer<br>
         <i>Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022.</i><br>
         <a href="https://arxiv.org/abs/2105.08825" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
