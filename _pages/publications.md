@@ -104,8 +104,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
         <i>arXiv preprint arXiv:2106.12271.</i><br>
         <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
-        <a href="https://github.com/XiaoyuBIE1994/DVAE_SE", target="_blank">[Code]</a>
-        <a href="https://team.inria.fr/robotlearn/unsupervised-speech-enhancement-using-dynamical-variational-auto-encoders/", target="_blank">[Project page]</a>
+        <a href="https://github.com/XiaoyuBIE1994/DVAE_SE" target="_blank">[Code]</a>
+        <a href="https://team.inria.fr/robotlearn/unsupervised-speech-enhancement-using-dynamical-variational-auto-encoders/" target="_blank">[Project page]</a>
       </p>
     </div>
   </div>
