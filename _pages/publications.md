@@ -104,7 +104,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
         <i>arXiv preprint arXiv:2106.12271.</i><br>
         <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
-        [Code]
+        <a href="https://github.com/XiaoyuBIE1994/DVAE_SE", target="_blank">[Code]</a>
       </p>
     </div>
   </div>
