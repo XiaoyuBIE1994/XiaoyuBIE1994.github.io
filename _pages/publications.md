@@ -85,11 +85,11 @@ Here is a selection of recent publications, full list can be found on [Google Sc
   </div>
 </article>
 
-<!-- 2022 arXiv DVAE SE-->
+<!-- 2022 TASLP DVAE SE-->
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2022_arXiv_DVAE-SE.png" width="100%">
+      <img src="../images/publications/2022_TASLP_DVAE-SE.png" width="100%">
     </figure>
   </div>
   <div class="column middle">
@@ -102,7 +102,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <p>
         <b>Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders</b><br>
         <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
-        <i>arXiv preprint arXiv:2106.12271.</i><br>
+        <i>IEEE/ACM Transactions on Audio, Speech and Language Processing (<b>TASLP</b>), 2022. (accepted)</i><br>
         <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/unsupervised-speech-enhancement-using-dynamical-variational-auto-encoders/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE_SE" target="_blank">[Code]</a>
@@ -142,7 +142,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2022_FnT_DVAE.png" width="100%">
+      <img src="../images/publications/2021_FnT_DVAE.png" width="100%">
     </figure>
   </div>
   <div class="column middle">
