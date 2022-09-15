@@ -115,7 +115,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
 <article class="row">
   <div class="column left">
     <figure class="image">
-      <img src="../images/publications/2022_arXiv_ExPI.png" width="100%">
+      <img src="../images/publications/2022_CVPR_ExPI.png" width="100%">
     </figure>
   </div>
   <div class="column middle">
@@ -130,6 +130,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         Wen Guo*, <b>Xiaoyu BIE*</b>, Xavier Alameda-Pineda, Francesc Moreno-Noguer<br>
         <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022.</i><br>
         <a href="https://arxiv.org/abs/2105.08825" target="_blank">[arXiv]</a>
+        <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Multi-Person_Extreme_Motion_Prediction_CVPR_2022_paper.html" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction" target="_blank">[Project page]</a>
         <a href="https://zenodo.org/record/5578329#.Ya_TCvGZP0q" target="_blank">[Dataset]</a>
         <a href="https://github.com/GUO-W/MultiMotion" target="_blank">[Code]</a>
