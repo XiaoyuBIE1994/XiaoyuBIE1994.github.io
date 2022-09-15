@@ -106,6 +106,7 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
         <a href="https://team.inria.fr/robotlearn/unsupervised-speech-enhancement-using-dynamical-variational-auto-encoders/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE_SE" target="_blank">[Code]</a>
+        <img src="https://img.shields.io/github/stars/XiaoyuBIE1994/DVAE_SE.svg">
       </p>
     </div>
   </div>
@@ -162,7 +163,8 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <a href="https://www.nowpublishers.com/article/Details/MAL-089" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/dvae/" target="_blank">[Project page]</a>
         <a href="https://www.youtube.com/watch?v=-Ix8k6BVOeU&list=PLuZsCU0LDHDeEusitbdY6bNKOEhqh6DnS&t=5s" target="_blank">[Tutorial]</a>
-        <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a> <img src="https://img.shields.io/github/stars/XiaoyuBIE1994/DVAE.svg">
+        <a href="https://github.com/XiaoyuBIE1994/DVAE" target="_blank">[Code]</a> 
+        <img src="https://img.shields.io/github/stars/XiaoyuBIE1994/DVAE.svg">
       </p>
     </div>
   </div>
