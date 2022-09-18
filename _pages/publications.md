@@ -102,8 +102,9 @@ Here is a selection of recent publications, full list can be found on [Google Sc
       <p>
         <b>Unsupervised Speech Enhancement using Dynamical Variational Auto-Encoders</b><br>
         <b>Xiaoyu BIE</b>, Simon Leglaive, Xavier Alameda-Pineda, Laurent Girin<br>
-        <i>IEEE/ACM Transactions on Audio, Speech and Language Processing (<b>TASLP</b>), 2022. (accepted)</i><br>
+        <i>IEEE/ACM Transactions on Audio, Speech and Language Processing (<b>TASLP</b>), 2022.</i><br>
         <a href="https://arxiv.org/abs/2106.12271" target="_blank">[arXiv]</a>
+        <a href="https://ieeexplore.ieee.org/document/9894060" target="_blank">[Paper]</a>
         <a href="https://team.inria.fr/robotlearn/unsupervised-speech-enhancement-using-dynamical-variational-auto-encoders/" target="_blank">[Project page]</a>
         <a href="https://github.com/XiaoyuBIE1994/DVAE_SE" target="_blank">[Code]</a>
         <img src="https://img.shields.io/github/stars/XiaoyuBIE1994/DVAE_SE.svg">
