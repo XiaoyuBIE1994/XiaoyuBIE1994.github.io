@@ -14,7 +14,7 @@ My research interests are broadly involving computer vision and speech processin
 
 
 ## News  
-**09/2022** I start a research internship at FAIR labs in Meta AI, I will work with [Alexei Baevski](https://ai.facebook.com/people/alexei-baevski), [Michael Auli](https://michaelauli.github.io/) and [Wei-Ning Hsu](https://wnhsu.github.io/).<br>
+**09/2022** I start a research internship at FAIR labs in Meta AI, supervised by [Alexei Baevski](https://ai.facebook.com/people/alexei-baevski).<br>
 **03/2022** Our paper [Multi-Person Extreme Motion Prediction](https://arxiv.org/abs/2105.08825) is accpeted to CVPR 2022.<br>
 **12/2021** We release the dataset [ExPI](https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction/). It contains 115 sequences of exteme Lindy Hop poses, with the 3D MoCap data (from 20 mocap cameras and manual label clean), multi-view images (from 68 synchronized cameras) and 3D shapes as a texured mesh. Download the [[data](https://zenodo.org/record/5578329#.YbtQ8H2ZM-T)] and the [[Code](https://github.com/GUO-W/MultiMotion)] to have a rapid try.<br>
 **10/2021** Our paper [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/abs/2008.12595) is accepted by [Foundations and Trends in Machine Learning](https://www.nowpublishers.com/MAL).<br>
