@@ -14,6 +14,7 @@ My research interests are broadly involving computer vision and speech processin
 
 
 ## News  
+**09/2022** Our paper on unsupervised speech enhancement is accepted by TASLP, [paper](https://arxiv.org/abs/2106.12271) and [code](https://github.com/XiaoyuBIE1994/DVAE_SE) are available.<br>
 **09/2022** I start a research internship at FAIR labs in Meta AI, supervised by [Alexei Baevski](https://ai.facebook.com/people/alexei-baevski).<br>
 **03/2022** Our paper [Multi-Person Extreme Motion Prediction](https://arxiv.org/abs/2105.08825) is accpeted to CVPR 2022.<br>
 **12/2021** We release the dataset [ExPI](https://team.inria.fr/robotlearn/multi-person-extreme-motion-prediction/). It contains 115 sequences of exteme Lindy Hop poses, with the 3D MoCap data (from 20 mocap cameras and manual label clean), multi-view images (from 68 synchronized cameras) and 3D shapes as a texured mesh. Download the [[data](https://zenodo.org/record/5578329#.YbtQ8H2ZM-T)] and the [[Code](https://github.com/GUO-W/MultiMotion)] to have a rapid try.<br>
