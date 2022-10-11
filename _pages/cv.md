@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>.  
+Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>. (last update Sept 2022)
 
 Education
 ======
