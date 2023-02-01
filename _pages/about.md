@@ -14,7 +14,7 @@ My research interests are broadly involving computer vision and speech processin
 
 Contact: xiaoyu[dot]bie[at]inria[dot]fr
 
-Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>. (Last update: Feb. 2023)
+Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE_pub.pdf" target="_blank">cv</a>. (Last update: Feb. 2023)
 
 ## News  
 **09/2022** Our paper on unsupervised speech enhancement is accepted by TASLP, [paper](https://arxiv.org/abs/2106.12271) and [code](https://github.com/XiaoyuBIE1994/DVAE_SE) are available.<br>
@@ -29,7 +29,6 @@ Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_bla
 
 
 ## Experience
-======
 * Sep. 2022 - Jan. 2023, Research Intern at Meta AI, FAIR labs (Menlo Park, CA, USA)
 * Nov. 2018 - Nov. 2019, Research Engineer at CEA (Palaiseau, France)
 * Avr. 2018 - Aug. 2018, R&D Intern at Baidu (Beijing, China)
@@ -37,7 +36,6 @@ Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_bla
 
 
 ## Education
-======
 * Ph.D in _Computer Science_, INRIA & University Grenoble Alpes, 2023 (expected)
 * M.S. (M2) in _Signal and Image Processing_, CentraleSupelec, University Paris Saclay, 2018
 * M.S. (Dipl. Ing.) in _Applied Optics_, Institut d'Optique, University Paris Saclay, 2018
@@ -45,6 +43,5 @@ Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_bla
 
 
 ## Community service
-======
 * Conferences: CVPR’23, ICASSP’23, ACM MM’20-22
 * Journals: IEEE/ACM TASLP, Neural Networks
