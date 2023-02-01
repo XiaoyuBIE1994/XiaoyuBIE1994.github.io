@@ -12,6 +12,8 @@ I’m a Ph.D. student in Computer Science at INRIA since December 2019 within [R
 
 My research interests are broadly involving computer vision and speech processing. Specifically, the deep sequential generative model, speech analysis and human understanding.
 
+Contack: xiaoyu[dot]bie[at]inria[dot]fr
+
 Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>. (Last update: Feb. 2023)
 
 ## News  
