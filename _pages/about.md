@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a Ph.D. student in Computer Science at INRIA since December 2019 within [RobotLearn team](https://team.inria.fr/robotlearn/) (former [Perception team](https://team.inria.fr/perception/)). I'm supervised by [Xavier Alameda-Pineda](http://xavirema.eu/) and [Laurent Girin](http://www.gipsa-lab.grenoble-inp.fr/~laurent.girin/cv_en.html). I was a research intern in [FAIR labs](https://ai.facebook.com/research/) under the supervision of [Alexei Baevski](https://scholar.google.com/citations?user=i7sxIX8AAAAJ&hl=en). I also collaborate closely with [Simon Leglaive](https://sleglaive.github.io/index.html) and [Francesc Moreno-Noguer](http://www.iri.upc.edu/people/fmoreno/). 
 
-My research interests are broadly involving computer vision and speech processing. Specifically, the deep sequential generative model, speech analysis and human understanding.
+My research interests are broadly involving speech processing and computer vision. Specifically, the deep sequential generative model, speech analysis and human pose/motion understanding.
 
 Contact: xiaoyu[dot]bie[at]inria[dot]fr
 
