@@ -29,10 +29,10 @@ Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE_pub.pdf" target="
 
 
 ## Experience
-* Sep. 2022 - Jan. 2023, Research Intern at Meta AI, FAIR labs (Menlo Park, CA, USA)
-* Nov. 2018 - Nov. 2019, Research Engineer at CEA (Palaiseau, France)
-* Avr. 2018 - Aug. 2018, R&D Intern at Baidu (Beijing, China)
-* Jun. 2017 - Aug. 2018, Research Intern at Charles Fabry Labratory, CNRS (Palaiseau, France)
+* Sep. 2022 - Jan. 2023, Research Intern at Meta AI (FAIR labs), Menlo Park, CA, USA
+* Nov. 2018 - Nov. 2019, Research Engineer at CEA, Palaiseau, France
+* Avr. 2018 - Aug. 2018, R&D Intern at Baidu, Beijing, China
+* Jun. 2017 - Aug. 2018, Research Intern at CNRS (Charles Fabry Labratory), Palaiseau, France
 
 
 ## Education
