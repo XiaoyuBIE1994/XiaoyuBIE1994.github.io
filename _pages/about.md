@@ -21,7 +21,7 @@ Contact: xiaoyu[dot]bie[at]telecom-paris[dot]fr
 Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE_pub.pdf" target="_blank">cv</a>. (Last update: Feb. 2023)
 
 ## News  
-**01/2024** I start to work as a postdoc researcher at Télécom Paris, Institut Polytechnique de Paris.<br>
+**01/2024** I start to work as a postdoc researcher at Télécom Paris, IP Paris.<br>
 **10/2023** I successfully defend my thesis!<br>
 **09/2022** Our paper on unsupervised speech enhancement is accepted by TASLP, [paper](https://arxiv.org/abs/2106.12271) and [code](https://github.com/XiaoyuBIE1994/DVAE_SE) are available.<br>
 **09/2022** I start a research internship at FAIR labs in Meta AI, supervised by [Alexei Baevski](https://ai.facebook.com/people/alexei-baevski).<br>
