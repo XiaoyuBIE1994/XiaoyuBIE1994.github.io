@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Xiaoyu BIE"
-description              : &description "Ph.D. candidate at INRIA & Université Grenoble Alpes"
+description              : &description "Postdoc Researcher at Télécom Paris, Institut Polytechnique de Paris"
 url                      : https://xiaoyubie1994.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "XiaoyuBIE1994.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xiaoyu BIE"
   avatar           : "portrait_BIE.jpeg"
-  bio              : "Ph.D. candidate at INRIA & Université Grenoble Alpes"
+  ¨¨              : "Ph.D. candidate at INRIA & Université Grenoble Alpes"
   location         : "Grenoble, France"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
