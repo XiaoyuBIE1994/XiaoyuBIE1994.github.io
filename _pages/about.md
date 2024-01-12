@@ -13,7 +13,7 @@ I obtained my Ph.D from INRIA and University Grenoble-Alpes in 2023, under the s
 
 Contact: xiaoyu[dot]bie[at]telecom-paris[dot]fr
 
-Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>. (Last update: Feb. 2023)
+Download <a href="https://XiaoyuBIE1994.github.io/files/CV_BIE.pdf" target="_blank">cv</a>. (Last update: Jan. 2024)
 
 ## News  
 **01/2024** I start to work as a postdoc researcher at Télécom Paris, IP Paris.<br>
