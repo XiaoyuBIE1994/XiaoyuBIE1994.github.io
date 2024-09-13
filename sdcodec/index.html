@@ -63,15 +63,45 @@
     </div>
   </section>
 
-  <section class="hero teaser"></section>
+  <section class="section">
     <div class="container is-max-desktop">
-      <div class="hero-body">
-        <img src="static/resources/images/teaser.png" alt="teaser_img" height="100%">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Neural audio codecs have significantly advanced audio compression by efficiently converting continuous audio signals into discrete tokens. These codecs preserve high-quality sound and enable sophisticated sound generation through generative models trained on these tokens.  However, existing neural codec models are typically trained on large, undifferentiated audio datasets, neglecting the essential discrepancies between sound domains like speech, music, and environmental sound effects. This oversight complicates data modeling and poses additional challenges to the controllability of sound generation. To tackle these issues, we introduce the Source-Disentangled Neural Audio Codec (SD-Codec),  a novel approach that combines audio coding and source separation. By jointly learning audio resynthesis and separation, SD-Codec explicitly assigns audio signals from different domains to distinct codebooks, sets of discrete representations. Experimental results indicate that SD-Codec not only maintains competitive resynthesis quality but also, supported by the separation results, demonstrates successful disentanglement of different sources in the latent space, thereby enhancing interpretability in audio codec and providing potential finer control over the audio generation process.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Approach. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">SD-Codec</h2>
+          <div class="content has-text-justified">
+            <p>
+              SD-Codec is a RVQ-based Neural Audio Codec model, which consists of an encoder and a decoder for signal transformation, as well as a RVQ-based quantizer between them for information coding. Given an audio input that may contain multiple sources,SD-Codec learns to disentangle the latent features and distribute features of source domains to different quantizers. The decoder of SD-Codec can reconstruct either a single source track from a specific quantizer, or reconstruct the mixture using the sum of quantized latent features.
+            </p>
+            <img src="static/resources/images/teaser.png" alt="Approach" height="80%">
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
+  <hr>
 
+  
   <footer class="footer">
     <div class="container">
       <div class="columns is-centered">
