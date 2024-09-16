@@ -103,42 +103,62 @@
 
   <br></br>
 
-  <h2 id="section_1">
-    <h3 style="color: black;">Demos of Resynthesis</h3>
-  </h2>
-  <!-- Resynthesis -->
-  <div class = "table-container">
-    <table class="table" align="center" style="table-layout: fixed; word-break: break-word; width: 100%;">
-      <thead>
-        <tr>
-          <th scope="col" width="160px">
-            <center>
-            <font color="061E61">Model</font>
-          </center>
-          </th>
-          <th scope="col" width="200px">
-            <center>
-            <font color="061E61">Mixture</font>
-          </center>
-          </th>
-          <th scope="col" width="200px">
-            <center>
-            <font color="061E61">Speech</font>
-          </center>
-          </th>
-          <th scope="col" width="200px">
-            <center>
-            <font color="061E61">Music</font>
-          </center>
-          </th>
-          <th scope="col" width="200px"></th>
-            <center>
-            <font color="061E61">SFX</font>
-          </center>
-          </th>
-        </tr>
-      </thead>
-    </table>
+  <!-- Results -->
+  <section class="section">
+    <div class="container is-max-desktop is-fluid">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Results</h2>
+          <div class="tabs is-boxed is-centered is-medium" id="tabs">
+            <ul>
+              <li data-tab="resynthesis" class="is-active"><a>Resynthesis</a></li>
+              <li data-tab="separation"><a>Separation</a></li>
+            </ul>
+          </div>
+          <div id="tabs-content">
+
+            <div data-content="resynthesis" class="tab-content is-active content">
+              <div class="columns is-centered has-text-left">
+                <div class="column is-two-thirds content">
+                  For resynthesis, we show that SD-Codec is comparable to DAC
+                </div>
+              </div>
+              <table width="100%">
+                <thead>
+                  <tr>
+                    <th width="10.0%" align="center">Model</th>
+                    <th width="22.5%" align="center">Mixture</th>
+                    <th width="22.5%" align="center">Speech</th>
+                    <th width="22.5%" align="center">Music</th>
+                    <th width="22.5%" align="center">SFX</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+
+            <div data-content="separation" class="tab-content content">
+              <div class="columns is-centered has-text-left">
+                <div class="column is-two-thirds content">
+                  For separation, we show that SD-Codec is comparable to TDANet
+                </div>
+              </div>
+              <table width="100%">
+                <thead>
+                  <tr>
+                    <th width="10.0%" align="center">Model</th>
+                    <th width="22.5%" align="center">Mixture</th>
+                    <th width="22.5%" align="center">Speech</th>
+                    <th width="22.5%" align="center">Music</th>
+                    <th width="22.5%" align="center">SFX</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   
   <footer class="footer">
