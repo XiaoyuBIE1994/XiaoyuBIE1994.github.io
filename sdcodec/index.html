@@ -1,217 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="SDCodec.">
-  <meta name="keywords" content="SDCodec, Neural Audio Codec">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Learning Source Disentanglement in Neural Audio Codec</title>
+  <meta name="generator" content="Hugo 0.66.0" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <!-- <link rel="icon" href="./static/images/favicon.png"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="alternate" href="index.xml" type="application/rss+xml" title="Speech Research">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <style>
+    body {
+      font-size: 20px; /* Default font */
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-2.9.0.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-2.9.0.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+    }
+    h1{ font-size:30px; 
+      color:black"
+
+    }
+    thead{
+      border-top: 1px solid #ccc; 
+    }
+    .table td{
+      border: none
+    }
+    .no-border {
+    border: none;
+  }
+
+  th{
+    font-weight: lighter;
+  }
+
+    .table-container {
+      overflow-x: auto;
+      /* width:120%; */
+      width: 100%;
+      /* margin: 20px; */
+    }
+
+    .table-container2 {
+    table-layout: fixed;
+    word-break: break-word;
+    width: 90%; /* width adjust */
+    margin: 0 auto; /* centering */
+    }
+
+    .divider {
+    border-top: 2px solid #ccc; /* gray frame*/
+    margin: 20px 0; /* top-down margin */
+  }
+
+    .audio-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none
+    }
+
+    td{
+      text-align: justify; 
+      color:black;
+      font-family: georgian;
+    }
+
+    font{ text-align: justify; 
+      color:black;
+      font-family: georgian;
+
+    }
+
+      video {
+      width: 640px;
+      height: 360px;
+    }
+    @media(min-width:1200px){
+      .table-container {
+      overflow-x: auto;
+      width:100%;
+      margin: 0 auto;
+
+    }
+    }
+    @media (max-width: 600px) {
+      /* For mobile phone */
+      body {
+        font-size: 14px; /* Reduce font size */
+      }
+      h1 {
+        font-size: 22px; /* Reduce title font size */
+      }
+      h2 {
+        font-size: 18px; /* Reduce title font size */
+      }
+      nav ul li {
+        display: block; /* List items -> block-level elements, easy to click on mobile phones */
+      }
+      .video-container {
+        padding-bottom: 75%; /* 4:3 aspect ratio, adjust this value to adapt to videos of other ratios */
+      }
+      video {
+      width: 400px; /* video width */
+      /* height: 360px; video height */
+      }
+    }
+  </style>
+  <title > FlowSep: Language-Queried Sound Separation with Rectified Flow Matching </title>
 </head>
 
-<body>
+<body rightmargin="150" leftmargin="150" topmargin="100" bottommargin="100" line-height:160%>
+  <div class="container">
+    <header role="banner"></header>
+    <main role="main">
+      <article itemscope itemtype="https://schema.org/BlogPosting">
+        <br></br>
+        <!-- Title -->
+        <h1 itemprop="headline" align="center">
+          <font style="font-size:40px; color:black;">Learning Source Disentanglement in Neural Audio Codec</font>
+        </h1>
+        <br></br>
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-2 publication-title">Learning Source Disentanglement in Neural Audio Codec</h1>
-            <!-- <div class="is-size-3 publication-authors">
-              <span class="author-block">In Submission</span>
-            </div> -->
+        <!-- Author List -->
+        <p style="line-height:1" align="center">
+          <font style="color: #209cef;">
+            <a href="https://xiaoyubie1994.github.io/" target="_blank" rel="noopener noreferrer">Xiaoyu Bie<sup>1</sup></a>
+            <a href="https://liuxubo717.github.io/" target="_blank" rel="noopener noreferrer">Xubo Liu<sup>2</sup></a>
+            <a href="https://scholar.google.com/citations?user=xn70tPIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Gaël Richard<sup>1</sup></a>
+          </font>
+        </p>
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="https://xiaoyubie1994.github.io/" target="_blank" rel="noopener noreferrer">Xiaoyu Bie<sup>1</sup></a>,</span>
-              <span class="author-block">
-                <a href="https://liuxubo717.github.io/" target="_blank" rel="noopener noreferrer">Xubo Liu<sup>2</sup></a>,</span>
-              <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=xn70tPIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Gaël Richard<sup>1</sup></a>,</span>
-            </div>
-
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>LTCI, Télécom Paris, Institut polytechnique de Paris, France</span>
-            </div>
-
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>2</sup>CVSSP, University of Surrey, UK</span>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Abstract. -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Abstract</h2>
-          <div class="content has-text-justified">
-            <p>
-              Neural audio codecs have significantly advanced audio compression by efficiently converting continuous audio signals into discrete tokens. These codecs preserve high-quality sound and enable sophisticated sound generation through generative models trained on these tokens.  However, existing neural codec models are typically trained on large, undifferentiated audio datasets, neglecting the essential discrepancies between sound domains like speech, music, and environmental sound effects. This oversight complicates data modeling and poses additional challenges to the controllability of sound generation. To tackle these issues, we introduce the Source-Disentangled Neural Audio Codec (SD-Codec),  a novel approach that combines audio coding and source separation. By jointly learning audio resynthesis and separation, SD-Codec explicitly assigns audio signals from different domains to distinct codebooks, sets of discrete representations. Experimental results indicate that SD-Codec not only maintains competitive resynthesis quality but also, supported by the separation results, demonstrates successful disentanglement of different sources in the latent space, thereby enhancing interpretability in audio codec and providing potential finer control over the audio generation process.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--/ Abstract. -->
-    </div>
-  </section>
-
-  <hr>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Approach. -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3">SD-Codec</h2>
-          <div class="content has-text-justified">
-            <p>
-              SD-Codec is a RVQ-based Neural Audio Codec model, which consists of an encoder and a decoder for signal transformation, as well as a RVQ-based quantizer between them for information coding. Given an audio input that may contain multiple sources,SD-Codec learns to disentangle the latent features and distribute features of source domains to different quantizers. The decoder of SD-Codec can reconstruct either a single source track from a specific quantizer, or reconstruct the mixture using the sum of quantized latent features.
-            </p>
-            <img src="static/resources/images/teaser.png" alt="Approach" height="80%">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr>
-
-  <br></br>
-
-  <!-- Results -->
-  <section class="section">
-    <div class="container is-max-desktop is-fluid">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3">Results</h2>
-          <div class="tabs is-boxed is-centered is-medium" id="tabs">
-            <ul>
-              <li data-tab="resynthesis" class="is-active"><a>Resynthesis</a></li>
-              <li data-tab="separation"><a>Separation</a></li>
-            </ul>
-          </div>
-          <div id="tabs-content">
-
-            <div data-content="resynthesis" class="tab-content is-active content">
-              <div class="columns is-centered has-text-left">
-                <div class="column is-two-thirds content">
-                  For resynthesis, we show that SD-Codec is comparable to DAC
-                </div>
-              </div>
-              <table width="70%">
-                <thead>
-                  <tr>
-                    <th scope="col" width="160px" align="center">Audio ID</th>
-                    <th scope="col" width="250px" align="center">Ground Truth</th>
-                    <th scope="col" width="250px" align="center">SD-Codec</th>
-                    <th scope="col" width="250px" align="center">DAC</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <tr>
-                      <td align="center">"4470 (mixture)"</td>
-                      <td align="center"><img alt="fname" height="125" src="static/resources/recon/img/4470_2/GT/4470_2_mix.png" width="250"/></td>
-                      <td align="center"><img alt="fname" height="125" src="static/resources/recon/img/4470_2/SDCodec/4470_2_mix.png" width="250"/></td>
-                      <td align="center"><img alt="fname" height="125" src="static/resources/recon/img/4470_2/SDCodec/4470_2_mix.png" width="250"/></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td align="center">
-                        <audio controls="controls">
-                          <source
-                            src="static/resources/recon/wav/4470_2/GT/4470_2_mix.wav"
-                            autoplay/> Your browser does not support the audio element.
-                        </audio>
-                      </td>
-                      <td align="center">
-                        <audio controls="controls">
-                          <source
-                            src="static/resources/recon/wav/4470_2/SDCodec/4470_2_mix.wav"
-                            autoplay/> Your browser does not support the audio element.
-                        </audio>
-                      </td>
-                      <td align="center">
-                        <audio controls="controls">
-                          <source
-                            src="static/resources/recon/wav/4470_2/SDCodec/4470_2_mix.wav"
-                            autoplay/> Your browser does not support the audio element.
-                        </audio>
-                      </td>
-                    </tr>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <div data-content="separation" class="tab-content content">
-              <div class="columns is-centered has-text-left">
-                <div class="column is-two-thirds content">
-                  For separation, we show that SD-Codec is comparable to TDANet
-                </div>
-              </div>
-              <table width="70%">
-                <thead>
-                  <tr>
-                    <th width="10.0%" align="center">Audio ID</th>
-                    <th width="20.0%" align="center">Ground Truth</th>
-                    <th width="20.0%" align="center">SD-Codec</th>
-                    <th width="20.0%" align="center">TDANet</th>
-                  </tr>
-                </thead>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <footer class="footer">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-8">
-          <div class="content">
-            <p>
-              This website is licensed under a <a rel="license"
-                                                  href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-              Commons Attribution-ShareAlike 4.0 International License</a>.
-            </p>
-            <p>
-              This website is based on the awesome <a
-                href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+        <!-- Author Afflications -->
+        <p style="line-height:0.6" align="center">
+          <font style="color: #1e1e1e;">
+            <sup>1</sup>LTCI, Télécom Paris, Institut polytechnique de Paris, France
+          </font>
+        </p>
+        <p style="line-height:0.6" align="center">
+          <font style="color: #1e1e1e;">
+            <sup>2</sup>CVSSP, University of Surrey, UK
+          </font>
+        </p>
+      </article>
+    </main>
+  </div>
 </body>
+
+
 </html>
