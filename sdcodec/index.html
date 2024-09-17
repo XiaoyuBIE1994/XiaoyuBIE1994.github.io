@@ -34,6 +34,7 @@
       font-size: 20px; /* Default font */
       font-family: Arial, sans-serif;
       text-align: center;
+      color: black;
     }
 
     .authors {
@@ -96,17 +97,20 @@
     thead {
       border-top: 1px solid #ccc; 
     }
+    
+    .table th{
+      font-weight: lighter;
+    }
 
     .table td{
-      border: none
+      border: none;
+      text-align: justify; 
+      color: black;
+      font-family: georgian;
     }
 
     .no-border {
     border: none;
-    }
-
-    th{
-      font-weight: lighter;
     }
 
     .table-container {
@@ -133,12 +137,6 @@
       justify-content: center;
       align-items: center;
       border: none
-    }
-
-    td {
-      text-align: justify; 
-      color: black;
-      font-family: georgian;
     }
 
     font { 
@@ -276,7 +274,7 @@
                   <img src="resources/images/teaser.png" alt="Approach" width="90%" class="center">
                 </p>
                 <figcaption>
-                  <p style="margin: 0 auto; text-align: center; color: #061E61;">
+                  <p style="margin: 0 auto; text-align: center; color: black;">
                     <b>Figure 1:</b> Framework of SD-Codec.
                   </p>
                 </figcaption>
@@ -292,6 +290,52 @@
               <li data-tab="resynthesis" class="is-active"><a>Resynthesis</a></li>
               <li data-tab="separation"><a>Separation</a></li>
             </ul>
+          </div>
+          <div id="tabs-content">
+            <div class = "table-container">
+              <table class="table" style="table-layout: fixed; word-break: break-word; width: 100%; margin: 0 auto; text-align: center;">
+                <thead>
+                  <tr>
+                    <th scope="col" style="width: 160px; text-align: center; color: black;">Audio ID</th>
+                    <th scope="col" style="width: 160px; text-align: center; color: black;">Ground Truth</th>
+                    <th scope="col" style="width: 160px; text-align: center; color: black;">SD-Codec</th>
+                    <th scope="col" style="width: 160px; text-align: center; color: black;">DAC</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <tr>
+                      <td style="text-align: center;">"4470 (mixture)"</td>
+                      <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/4470_2/GT/4470_2_mix.png" width="250"/></td>
+                      <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/4470_2/SDCodec/4470_2_mix.png" width="250"/></td>
+                      <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/4470_2/SDCodec/4470_2_mix.png" width="250"/></td>
+                    </tr>
+                    <td></td>
+                    <td style="text-align: center;">
+                      <audio controls="controls">
+                        <source
+                          src="resources/recon/wav/4470_2/GT/4470_2_mix.wav"
+                          autoplay/> Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td style="text-align: center;">
+                      <audio controls="controls">
+                        <source
+                          src="resources/recon/wav/4470_2/SDCodec/4470_2_mix.wav"
+                          autoplay/> Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                    <td style="text-align: center;">
+                      <audio controls="controls">
+                        <source
+                          src="resources/recon/wav/4470_2/SDCodec/4470_2_mix.wav"
+                          autoplay/> Your browser does not support the audio element.
+                      </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 
