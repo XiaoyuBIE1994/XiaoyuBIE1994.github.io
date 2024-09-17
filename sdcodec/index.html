@@ -41,7 +41,7 @@
       text-align: center;
       color: #209cef;
       font-size: 20px;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
     }
 
     .affiliations {
@@ -215,14 +215,16 @@
         <br>
         <br>
         
-        <!-- Main Text -->
+        <!-- Abstract -->
         <section itemprop="entry-text">
-          <!-- Abstract -->
           <table class="table" style="table-layout: fixed; word-break: break-word; margin: 0 auto; text-align: center;">
             <th>
               <h2 id="abstract">
                   <h1>Abstract</h1>
               </h2>
+              <p style="text-align: justify; color:black;font-family: georgian;">
+                Neural audio codecs have significantly advanced audio compression by efficiently converting continuous audio signals into discrete tokens. These codecs preserve high-quality sound and enable sophisticated sound generation through generative models trained on these tokens.  However, existing neural codec models are typically trained on large, undifferentiated audio datasets, neglecting the essential discrepancies between sound domains like speech, music, and environmental sound effects. This oversight complicates data modeling and poses additional challenges to the controllability of sound generation. To tackle these issues, we introduce the Source-Disentangled Neural Audio Codec (SD-Codec),  a novel approach that combines audio coding and source separation. By jointly learning audio resynthesis and separation, SD-Codec explicitly assigns audio signals from different domains to distinct codebooks, sets of discrete representations. Experimental results indicate that SD-Codec not only maintains competitive resynthesis quality but also, supported by the separation results, demonstrates successful disentanglement of different sources in the latent space, thereby enhancing interpretability in audio codec and providing potential finer control over the audio generation process.
+              </p>
             </th>
           </table>
         </section>
