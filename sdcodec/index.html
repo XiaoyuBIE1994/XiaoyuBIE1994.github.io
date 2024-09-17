@@ -433,23 +433,38 @@
             <!-- more examples -->
             <div id="accordion">
               <div class="card">
-                <!-- click card -->
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                       &#x1F449; Click for more examples.
                     </button>
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    <table class="table" style="table-layout: fixed; word-break: break-word; width: 100%; margin: 0 auto; text-align: center;">
+                    <table class="table" align="center" style="table-layout: fixed;word-break:break-word">
                       <thead>
                         <tr>
-                          <th scope="col" style="width: 160px; text-align: center; color: black;">Audio ID</th>
-                          <th scope="col" style="width: 300px; text-align: center; color: black;">Ground Truth</th>
-                          <th scope="col" style="width: 300px; text-align: center; color: black;">SD-Codec</th>
-                          <th scope="col" style="width: 300px; text-align: center; color: black;">DAC</th>
+                          <th scope="col" width="160px">
+                            <center>
+                            <font color="061E61">Text Query</font>
+                          </center>
+                          </th>
+                          <th scope="col" width="250px">
+                            <center>
+                            <font color="061E61">Mixture</font>
+                          </center>
+                          </th>
+                          <th scope="col" width="250px">
+                            <center>
+                            <font color="061E61">AudioSep</font>
+                          </center>
+                          </th>
+                          <th scope="col" width="250px">
+                            <center>
+                            <font color="061E61">FlowSep</font>
+                          </center>
+                          </th>
                         </tr>
                       </thead>
                     </table>
@@ -457,7 +472,7 @@
                 </div>
               </div>
             </div>
-            
+
           </div>
 
           
