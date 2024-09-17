@@ -161,6 +161,8 @@
       border-radius: 4px;
       font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
       color: #333;
+      text-align: left;
+      white-space: pre-wrap; /* option, auto change line */
     }
 
     @media (min-width:1200px) {
@@ -1669,9 +1671,9 @@
         <!-- BibTex -->
         <section class="section" id="BibTeX">
           <div class="container">
-            <h2 class="title">
+            <div class="title">
               <h3 style="text-align: center; color: black;">BibTeX</h3>
-            </h2>
+            </div>
             <pre class="code-block">
 @article{bie2024sdcodec,
   author={Bie, Xiaoyu and Liu, Xubo and Richard, Ga{\"e}l},
@@ -1688,13 +1690,21 @@
         
         <!-- Acknowledgement -->
         <section itemprop="entry-text">
-          <h2 class="title">
+          <div class="title">
             <h3 style="text-align: center; color: black;">Acknowledgement</h3>
-          </h2>
+          </div>
           <p style="text-align: center;">
             This work was funded by the European Union (ERC, HI-Audio, 101052978). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them. This project was provided with computer and storage resources by GENCI at IDRIS thanks to the grant 2024-AD011015054 on the supercomputer Jean Zay's V100 and A100 partition.
           </p>
         </section>
+        <br>
+        <br>
+
+        <p style="text-align: justify; color:black;font-family: georgian;">
+          Page updated on 18 Sep 2024
+        </p>
+        <br>
+        <br>
       
       </article>
     </main>
