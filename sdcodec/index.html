@@ -152,6 +152,17 @@
       height: 360px;
     }
 
+    /* Code block styling */
+    .code-block {
+      background-color: #f5f5f5;
+      padding: 1em;
+      overflow-x: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+      color: #333;
+    }
+
     @media (min-width:1200px) {
       .table-container {
         overflow-x: auto;
@@ -210,8 +221,8 @@
 
         <!-- Author List -->
         <div class="authors">
-          <a href="https://xiaoyubie1994.github.io/" target="_blank" rel="noopener noreferrer">Xiaoyu Bie<sup>1</sup></a>
-          <a href="https://liuxubo717.github.io/" target="_blank" rel="noopener noreferrer">Xubo Liu<sup>2</sup></a>
+          <a href="https://xiaoyubie1994.github.io/" target="_blank" rel="noopener noreferrer">Xiaoyu Bie<sup>1</sup></a>, 
+          <a href="https://liuxubo717.github.io/" target="_blank" rel="noopener noreferrer">Xubo Liu<sup>2</sup></a>, 
           <a href="https://scholar.google.com/citations?user=xn70tPIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Gaël Richard<sup>1</sup></a>
         </div>
 
@@ -977,8 +988,6 @@
             </div>
           </div>
 
-          
-
           <br></br>
 
           <!-- Separation -->
@@ -1108,15 +1117,572 @@
                       </audio>
                     </td>
                   </tr>
-
                 </tr>
               </tbody>
             </table>
+
+            <!-- more examples -->
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                      &#x1F449; Click for more examples.
+                    </button>
+                  </h5>
+                </div>
+                <div class="collapse" id="collapseExample" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <table class="table" style="table-layout: fixed; word-break: break-word; width: 100%; margin: 0 auto; text-align: center;">
+                      <thead>
+                        <tr>
+                          <th scope="col" style="width: 160px; text-align: center; color: black;">Audio ID</th>
+                          <th scope="col" style="width: 300px; text-align: center; color: black;">Ground Truth</th>
+                          <th scope="col" style="width: 300px; text-align: center; color: black;">SD-Codec</th>
+                          <th scope="col" style="width: 300px; text-align: center; color: black;">DAC</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- 37828_1 -->
+                        <tr>
+                          <!-- mix -->
+                          <tr>
+                            <td style="text-align: center;">37828 (mixture)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/GT/37828_1_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/SDCodec/37828_1_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/DAC/37828_1_mix.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/GT/37828_1_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/SDCodec/37828_1_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/DAC/37828_1_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- speech -->
+                          <tr>
+                            <td style="text-align: center;">37828 (speech)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/GT/37828_1_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/SDCodec/37828_1_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/DAC/37828_1_speech.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/GT/37828_1_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/SDCodec/37828_1_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/DAC/37828_1_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- music -->
+                          <tr>
+                            <td style="text-align: center;">37828 (music)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/GT/37828_1_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/SDCodec/37828_1_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/DAC/37828_1_music.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/GT/37828_1_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/SDCodec/37828_1_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/DAC/37828_1_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- sfx -->
+                          <tr>
+                            <td style="text-align: center;">37828 (SFX)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/GT/37828_1_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/SDCodec/37828_1_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/37828_1/DAC/37828_1_sfx.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/GT/37828_1_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/SDCodec/37828_1_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/37828_1/DAC/37828_1_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                        </tr>
+                        <!-- 58627_3 -->
+                        <tr>
+                          <!-- mix -->
+                          <tr>
+                            <td style="text-align: center;">58627 (mixture)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/GT/58627_3_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/SDCodec/58627_3_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/DAC/58627_3_mix.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/GT/58627_3_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/SDCodec/58627_3_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/DAC/58627_3_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- speech -->
+                          <tr>
+                            <td style="text-align: center;">58627 (speech)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/GT/58627_3_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/SDCodec/58627_3_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/DAC/58627_3_speech.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/GT/58627_3_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/SDCodec/58627_3_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/DAC/58627_3_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- music -->
+                          <tr>
+                            <td style="text-align: center;">58627 (music)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/GT/58627_3_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/SDCodec/58627_3_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/DAC/58627_3_music.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/GT/58627_3_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/SDCodec/58627_3_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/DAC/58627_3_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- sfx -->
+                          <tr>
+                            <td style="text-align: center;">58627 (SFX)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/GT/58627_3_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/SDCodec/58627_3_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/58627_3/DAC/58627_3_sfx.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/GT/58627_3_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/SDCodec/58627_3_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/58627_3/DAC/58627_3_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                        </tr>
+                        <!-- 59313_4 -->
+                        <tr>
+                          <!-- mix -->
+                          <tr>
+                            <td style="text-align: center;">59313 (mixture)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/GT/59313_4_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/SDCodec/59313_4_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/DAC/59313_4_mix.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/GT/59313_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/SDCodec/59313_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/DAC/59313_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- speech -->
+                          <tr>
+                            <td style="text-align: center;">59313 (speech)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/GT/59313_4_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/SDCodec/59313_4_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/DAC/59313_4_speech.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/GT/59313_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/SDCodec/59313_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/DAC/59313_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- music -->
+                          <tr>
+                            <td style="text-align: center;">59313 (music)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/GT/59313_4_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/SDCodec/59313_4_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/DAC/59313_4_music.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/GT/59313_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/SDCodec/59313_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/DAC/59313_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- sfx -->
+                          <tr>
+                            <td style="text-align: center;">59313 (SFX)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/GT/59313_4_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/SDCodec/59313_4_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/59313_4/DAC/59313_4_sfx.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/GT/59313_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/SDCodec/59313_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/59313_4/DAC/59313_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                        </tr>
+                        <!-- 98448_4 -->
+                        <tr>
+                          <!-- mix -->
+                          <tr>
+                            <td style="text-align: center;">98448 (mixture)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/GT/98448_4_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/SDCodec/98448_4_mix.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/DAC/98448_4_mix.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/GT/98448_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/SDCodec/98448_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/DAC/98448_4_mix.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- speech -->
+                          <tr>
+                            <td style="text-align: center;">98448 (speech)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/GT/98448_4_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/SDCodec/98448_4_speech.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/DAC/98448_4_speech.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/GT/98448_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/SDCodec/98448_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/DAC/98448_4_speech.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- music -->
+                          <tr>
+                            <td style="text-align: center;">98448 (music)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/GT/98448_4_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/SDCodec/98448_4_music.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/DAC/98448_4_music.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/GT/98448_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/SDCodec/98448_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/DAC/98448_4_music.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                          <!-- sfx -->
+                          <tr>
+                            <td style="text-align: center;">98448 (SFX)</td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/GT/98448_4_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/SDCodec/98448_4_sfx.png" width="300"/></td>
+                            <td style="text-align: center;"><img alt="fname" height="125" src="resources/recon/img/98448_4/DAC/98448_4_sfx.png" width="300"/></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/GT/98448_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/SDCodec/98448_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                            <td style="text-align: center;">
+                              <audio controls="controls">
+                                <source
+                                  src="resources/recon/wav/98448_4/DAC/98448_4_sfx.wav"
+                                  autoplay/> Your browser does not support the audio element.
+                              </audio>
+                            </td>
+                          </tr>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
-
-
+        <!-- BibTex -->
+        <section class="section" id="BibTeX">
+          <div class="container">
+            <h2 class="title">BibTeX</h2>
+            <pre class="code-block">
+              @article{bie2024sdcodec,
+                author={Bie, Xiaoyu and Liu, Xubo and Richard, Ga{\"e}l},
+                title={Avatars Grow Legs: Generating Smooth Human Motion from Sparse Tracking Inputs with Diffusion Model},
+                journal={arXiv preprint },
+                year={2024},
+              }
+            </pre>
+          </div>
+        </section>
+        
+        
+        <!-- Acknowledgement -->
+        <section itemprop="entry-text">
+          <p style="text-align: center;">
+            This work was funded by the European Union (ERC, HI-Audio, 101052978). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them. This project was provided with computer and storage resources by GENCI at IDRIS thanks to the grant 2024-AD011015054 on the supercomputer Jean Zay's V100 and A100 partition.
+          </p>
+        </section>
+      
       </article>
     </main>
   </div>
