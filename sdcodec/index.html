@@ -228,8 +228,32 @@
             </th>
           </table>
         </section>
+        
+        <!-- Teaser -->
+        <section itemprop="entry-text">
+          <table class="table" style="table-layout: fixed; word-break: break-word; margin: 0 auto; text-align: center;">
+            <th style="border: None;">
+              <h2 id="graph">
+                <h1>SD-Codec</h1>
+              </h2>
+              <p style="text-align: justify; color:black;font-family: georgian;">
+                SD-Codec is a RVQ-based Neural Audio Codec model, which consists of an encoder and a decoder for signal transformation, as well as a RVQ-based quantizer between them for information coding. Given an audio input that may contain multiple sources,SD-Codec learns to disentangle the latent features and distribute features of source domains to different quantizers. The decoder of SD-Codec can reconstruct either a single source track from a specific quantizer, or reconstruct the mixture using the sum of quantized latent features.
+              </p>
+              <figure>
+                <p class="center" style="margin: 0 auto; text-align: center;">
+                  <img src="resources/images/teaser.png" alt="Approach" height="80%" class="center">
+                </p>
+                <figcaption>
+                  <p style="margin: 0 auto; text-align: justify; color: #061E61;">
+                    <b>Figure 1:</b> Framework of SD-Codec.
+                  </p>
+                </figcaption>
+              </figure>
+            </th>
+          </table>
+        </section>
 
-
+        
 
       </article>
     </main>
