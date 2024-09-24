@@ -60,6 +60,31 @@ author_profile: true
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)  
 \* indicates equal contribution.
 
+<!-- 2024 arXiv SD-Codec-->
+<article class="row">
+  <div class="column left">
+    <figure class="image">
+      <img src="../sdcodec/resources/images/teaser.png" width="100%">
+    </figure>
+  </div>
+  <div class="column middle">
+    <figure class="image">
+      <img src="../images/blank_placeholder.png" width="100%">
+    </figure>
+  </div>
+  <div class="column right">
+    <div class="content">
+      <p>
+        <b>Learning Source Disentanglement in Neural Audio Codec</b><br>
+        <b>Xiaoyu BIE*</b>, Xubo Liu, Gaël Richard<br>
+        <i>arXiv preprint arXiv:2409.11228</i><br>
+        <a href="https://arxiv.org/abs/2409.11228" target="_blank">[arXiv]</a>
+        <a href="https://xiaoyubie1994.github.io/sdcodec" target="_blank">[Project page]</a>
+      </p>
+    </div>
+  </div>
+</article>
+
 <!-- 2022 arXiv HiT DVAE-->
 <article class="row">
   <div class="column left">
@@ -79,7 +104,6 @@ Here is a selection of recent publications, full list can be found on [Google Sc
         <b>Xiaoyu BIE*</b>, Wen Guo*, Simon Leglaive, Laurent Girin, Francesc Moreno-Noguer, Xavier Alameda-Pineda<br>
         <i>arXiv preprint arXiv:2204.01565</i><br>
         <a href="https://arxiv.org/abs/2204.01565" target="_blank">[arXiv]</a>
-        [Code]
       </p>
     </div>
   </div>
