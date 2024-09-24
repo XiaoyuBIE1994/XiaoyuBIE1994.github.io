@@ -9,7 +9,7 @@ redirect_from:
 ---
 I'm currently a Postdoc researcher in the [ADASP](https://adasp.telecom-paris.fr/index.html) group at Télécom Paris, Institut Polytechnique de Paris (IP Paris), working with Prof. [Gaël Richard](https://perso.telecom-paristech.fr/grichard/CV.html). I'm involved in the ERC project [Hi-Audio](https://hi-audio.imt.fr/), aiming to explore interpretable and controllable deep neural models for audio with domain specific knowledge.
 
-I obtained my Ph.D from INRIA and University Grenoble-Alpes in 2023, under the supervision of Dr. [Xavier Alameda-Pineda](http://xavirema.eu/) and Prof. [Laurent Girin](https://scholar.google.fr/citations?user=GQe9TsMAAAAJ). During my Phd, I'm fortunate to colaborate closely with Prof. [Simon Leglaive](https://sleglaive.github.io/) and Dr. [Francesc Moreno-Noguer](https://www.iri.upc.edu/people/fmoreno/), and to spend a memorable time as a research intern at [Meta FAIR](https://ai.facebook.com/research/) team under the supervision of [Alexei Baevski](https://scholar.google.com/citations?user=i7sxIX8AAAAJ&hl=en)
+I obtained my Ph.D from INRIA and University Grenoble-Alpes in 2023, under the supervision of Dr. [Xavier Alameda-Pineda](http://xavirema.eu/) and Prof. [Laurent Girin](https://scholar.google.fr/citations?user=GQe9TsMAAAAJ). During my Phd, I'm fortunate to colaborate closely with Prof. [Simon Leglaive](https://sleglaive.github.io/) and Dr. [Francesc Moreno-Noguer](https://www.iri.upc.edu/people/fmoreno/), and to spend a memorable time as a research intern at [Meta FAIR](https://ai.facebook.com/research/) team under the supervision of [Alexei Baevski](https://scholar.google.com/citations?user=i7sxIX8AAAAJ&hl=en).
 
 Contact: xiaoyu[dot]bie[at]telecom-paris[dot]fr
 
