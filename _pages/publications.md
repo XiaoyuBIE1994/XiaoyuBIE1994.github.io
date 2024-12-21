@@ -60,7 +60,7 @@ author_profile: true
 Here is a selection of recent publications, full list can be found on [Google Scholar](https://scholar.google.com/citations?user=Ymz1-_0AAAAJ&hl=en)  
 \* indicates equal contribution.
 
-<!-- 2024 arXiv SD-Codec-->
+<!-- 2025 ICASSP SD-Codec-->
 <article class="row">
   <div class="column left">
     <figure class="image">
@@ -76,10 +76,11 @@ Here is a selection of recent publications, full list can be found on [Google Sc
     <div class="content">
       <p>
         <b>Learning Source Disentanglement in Neural Audio Codec</b><br>
-        <b>Xiaoyu BIE*</b>, Xubo Liu, Gaël Richard<br>
-        <i>arXiv preprint arXiv:2409.11228</i><br>
+        <b>Xiaoyu BIE</b>, Xubo Liu, Gaël Richard<br>
+        <i>IEEE International Conference on Acoustic, Speech and Signal Procssing (<b>ICASSP</b>), 2025</i><br>
         <a href="https://arxiv.org/abs/2409.11228" target="_blank">[arXiv]</a>
         <a href="https://xiaoyubie1994.github.io/sdcodec" target="_blank">[Project page]</a>
+        <a href="https://github.com/XiaoyuBIE1994/SDCodec" target="_blank">[Code]</a>
       </p>
     </div>
   </div>
